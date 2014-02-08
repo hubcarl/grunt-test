@@ -1,3 +1,4 @@
+﻿
 ### 项目初始化说明
 
 1. 安装[nodejs](http://nodejs.org) -- 下载对应版本并安装
@@ -42,3 +43,4 @@ bower help命令
 6 卸载已经安装到本地的包：bower uninstall <package-name>
 
 7 通过bower init命令，进入交互式界面创建一个bower.json文件：
+
