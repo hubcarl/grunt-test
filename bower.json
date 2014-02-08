@@ -1,0 +1,31 @@
+{
+  "name": "gruntstudy",
+  "version": "1.0.0",
+  "authors": [
+    "caoli <caoli@ucweb.com>"
+  ],
+  "description": "grunt bower npm study",
+  "main": "src/index.html",
+  "keywords": [
+    "bower",
+    "study"
+  ],
+  "license": "MIT",
+  "homepage": "www.cnblogs.com/hubcarl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "seajs": "*",
+    "angular": ">=1.2.5",
+    "angular-route": ">=1.2.5",
+    "zeptojs":"*",
+    "ajaxloader":"*",
+    "artTemplate":"https://github.com/aui/artTemplate.git"
+  }
+}
