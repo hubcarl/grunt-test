@@ -1,22 +1,16 @@
 ﻿
-### 项目初始化说明
+### 初始化说明
 
 1. 安装[nodejs](http://nodejs.org) -- 下载对应版本并安装
-2. 安装[grunt](http://gruntjs.com) -- 命令行下执行: `npm install -g grunt-cli`  (不包含符号` ,下同)
-4. 安装依赖库 -- 命令行到项目根目录,执行 `npm install`
+2. 安装[grunt](http://gruntjs.com) -- 命令行下执行:npm install -g grunt-cli
+4. 安装依赖库 -- 命令行到项目根目录,执行 npm install
 
 ### 开发说明
 
-1. 命令行执行 `grunt dev`
+1. 命令行执行grunt dev
 2. 将启动内置web服务, 监控dist目录
 3. 将自动打开浏览器显示首页
 
-### 打包说明
-
-1. 把客户端给的包放到tools下,文件名为: cn.ninegame.gamemanager.apk
-2. 命令行到项目根目录, 执行 `grunt apk` 或 `grunt publish` 进行打包并安装。
-3. 仅打包html可以用 `grunt html:dev` 或 `grunt html:prod`
-4. 更多grunt之类可以看Gruntfile.js的定义
 
 ### Grunt & Bower & NPM 使用
 
