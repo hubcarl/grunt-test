@@ -21,12 +21,19 @@ npm install -g bower
 bower help命令
 
 3 Bower提供了几种方式用于安装包，所有包都将默认安装到components目录中。
+
     # Using the dependencies listed in the current directory's bower.json
+    
     bower install
+    
     # Using a local or remote package
+    
     bower install <package>
+    
     >> bower install https://github.com/aui/artTemplate.git
+    
     # Using a specific Git-tagged version from a remote package
+    
     bower install <package>#<version>
 
 
